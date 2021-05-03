@@ -1,0 +1,126 @@
+
+* {
+  margin:0;
+  padding:0;  
+}
+
+body {
+  position: relative;
+  font-family: 'Metal Mania', cursive;
+  font-size: 40px;
+  background-color: #000000;
+  color: #007074;
+}
+
+h1 {
+display: flex;
+justify-content: center;
+margin: 10px;
+text-shadow: 5px 5px #3d3d3d;
+}
+h2 {
+  margin: 20px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  text-decoration-style: wavy;
+}
+
+a {
+  text-decoration-style: wavy;
+  color: #000000;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #007074;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #007074;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #030303;
+  color: #000000;    
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  width: px;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #3d3d3d;
+  background-color:  #020202;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #007074;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio{
+  border-top: 3px solid #3d3d3d;
+  margin-top: px;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+}
